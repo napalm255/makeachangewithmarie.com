@@ -1,0 +1,68 @@
+/**
+ * @package 	WordPress Plugin
+ * @subpackage 	CMSMasters Mega Menu
+ * @version 	1.1.0
+ * 
+ * Mega Menu Builder Styles
+ * Created by CMSMasters
+ * 
+ */
+
+
+.is-mega-menu, 
+.is-column, 
+.is-mega-descr-text {
+	color: #999999;
+	font-style: italic;
+	font-weight: 400;
+	display: none;
+	margin-left: 4px;
+}
+
+.is-drop-side-right {
+	color: #aaaaaa;
+	display: none;
+	margin-left: 6px;
+	position: relative;
+}
+
+.cmsms_hide_text {
+	text-decoration: line-through;
+}
+
+.cmsms_highlight {
+	color: #0074a2;
+}
+
+.menu-item.menu-item-depth-1 .field-drop_side, 
+.menu-item.menu-item-depth-2 .field-drop_side, 
+.menu-item.menu-item-depth-3 .field-drop_side, 
+.menu-item.menu-item-depth-4 .field-drop_side, 
+.menu-item.menu-item-depth-5 .field-drop_side, 
+.menu-item.menu-item-depth-6 .field-drop_side, 
+.menu-item.menu-item-depth-7 .field-drop_side, 
+.menu-item.menu-item-depth-8 .field-drop_side, 
+.menu-item.menu-item-depth-9 .field-drop_side, 
+.menu-item.menu-item-depth-10 .field-drop_side, 
+.menu-item.menu-item-depth-11 .field-drop_side, 
+.menu-item.menu-item-depth-1 .field-mega, 
+.menu-item.menu-item-depth-2 .field-mega, 
+.menu-item.menu-item-depth-3 .field-mega, 
+.menu-item.menu-item-depth-4 .field-mega, 
+.menu-item.menu-item-depth-5 .field-mega, 
+.menu-item.menu-item-depth-6 .field-mega, 
+.menu-item.menu-item-depth-7 .field-mega, 
+.menu-item.menu-item-depth-8 .field-mega, 
+.menu-item.menu-item-depth-9 .field-mega, 
+.menu-item.menu-item-depth-10 .field-mega, 
+.menu-item.menu-item-depth-11 .field-mega {
+	display: none;
+}
+
+.field-hide_text, 
+.field-mega_cols, 
+.field-mega_cols_full, 
+.field-mega_descr_text {
+	display: none;
+}
+
